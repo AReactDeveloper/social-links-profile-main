@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+:root {
+  --green:hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --darkGrey: hsl(0, 0%, 12%);
+  --black: hsl(0, 0%, 8%);
+  --primary-font: "Inter", sans-serif;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1rem;
+  font-family: --primary-font;
+  background-color: var(--clr-yellow);
+  color: var(--clr-black);
+}
+
+main {
+  min-height: 100vh;
+  background-color: --black;
+}
+
+/* Eric Meyer’s Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a consistent base font size */
+html {
+  font-size: 100%;
+}
+
+/* Ensure images don’t have extra space below */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove link underlines */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ensure headings are not affected by base font size */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*# sourceMappingURL=styles.css.map */
