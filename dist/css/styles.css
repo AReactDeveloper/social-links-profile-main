@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  height: 100vh;
   background-color: var(--clr-black);
   display: grid;
   place-content: center;
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .profile {
   background-color: var(--clr-darkGrey);
-  min-width: 24.063rem;
+  max-width: 24.063rem;
   padding: 1.25rem 2.5rem;
   display: flex;
   flex-direction: column;
@@ -119,9 +119,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--clr-green);
 }
 
-@media (max-width: 23.438rem) {
+@media (max-width: 370px) {
   .main {
-    width: 90vw;
+    height: 100vh;
+  }
+  .profile {
+    width: 90%;
     margin: 0 auto;
   }
 }
